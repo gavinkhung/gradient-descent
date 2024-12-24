@@ -5,7 +5,6 @@ COPY . /home/jovyan/work
 
 # Install the Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install jupyterlab
 
 # Expose the JupyterLab port
 EXPOSE 8888

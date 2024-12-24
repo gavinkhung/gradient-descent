@@ -1,5 +1,5 @@
 numpy
 matplotlib
-sympy
 celluloid
 IPython
+SciencePlots
